@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66D516A550270752F84E4C38 /* Pods_LivePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39C56F7579CDF6DE944FD88 /* Pods_LivePhoto.framework */; };
+		E550C1B42ADD559700732F23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1B32ADD559700732F23 /* AppDelegate.m */; };
+		E550C1B72ADD559700732F23 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1B62ADD559700732F23 /* SceneDelegate.m */; };
+		E550C1BA2ADD559700732F23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1B92ADD559700732F23 /* ViewController.m */; };
+		E550C1BD2ADD559700732F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E550C1BB2ADD559700732F23 /* Main.storyboard */; };
+		E550C1BF2ADD559900732F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E550C1BE2ADD559900732F23 /* Assets.xcassets */; };
+		E550C1C22ADD559900732F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E550C1C02ADD559900732F23 /* LaunchScreen.storyboard */; };
+		E550C1C52ADD559900732F23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1C42ADD559900732F23 /* main.m */; };
+		E550C1CF2ADD559A00732F23 /* LivePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1CE2ADD559A00732F23 /* LivePhotoTests.m */; };
+		E550C1D92ADD559A00732F23 /* LivePhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1D82ADD559A00732F23 /* LivePhotoUITests.m */; };
+		E550C1DB2ADD559A00732F23 /* LivePhotoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1DA2ADD559A00732F23 /* LivePhotoUITestsLaunchTests.m */; };
+		E550C1E92ADD56F900732F23 /* LivePhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C1E82ADD56F900732F23 /* LivePhotoCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E550C1CB2ADD559A00732F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E550C1A72ADD559700732F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E550C1AE2ADD559700732F23;
+			remoteInfo = LivePhoto;
+		};
+		E550C1D52ADD559A00732F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E550C1A72ADD559700732F23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E550C1AE2ADD559700732F23;
+			remoteInfo = LivePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852C1FC6B4FDE6C3B640B341 /* Pods-LivePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePhoto.debug.xcconfig"; path = "Target Support Files/Pods-LivePhoto/Pods-LivePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		A39C56F7579CDF6DE944FD88 /* Pods_LivePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550C1AF2ADD559700732F23 /* LivePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550C1B22ADD559700732F23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E550C1B32ADD559700732F23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E550C1B52ADD559700732F23 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E550C1B62ADD559700732F23 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E550C1B82ADD559700732F23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E550C1B92ADD559700732F23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E550C1BC2ADD559700732F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E550C1BE2ADD559900732F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E550C1C12ADD559900732F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E550C1C32ADD559900732F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E550C1C42ADD559900732F23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E550C1CA2ADD559A00732F23 /* LivePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550C1CE2ADD559A00732F23 /* LivePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoTests.m; sourceTree = "<group>"; };
+		E550C1D42ADD559A00732F23 /* LivePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550C1D82ADD559A00732F23 /* LivePhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoUITests.m; sourceTree = "<group>"; };
+		E550C1DA2ADD559A00732F23 /* LivePhotoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E550C1E72ADD56F900732F23 /* LivePhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivePhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		E550C1E82ADD56F900732F23 /* LivePhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		F643F156004F744351D996FE /* Pods-LivePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePhoto.release.xcconfig"; path = "Target Support Files/Pods-LivePhoto/Pods-LivePhoto.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E550C1AC2ADD559700732F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D516A550270752F84E4C38 /* Pods_LivePhoto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550C1C72ADD559A00732F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550C1D12ADD559A00732F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDF5FCBB36DF2808EC83FD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852C1FC6B4FDE6C3B640B341 /* Pods-LivePhoto.debug.xcconfig */,
+				F643F156004F744351D996FE /* Pods-LivePhoto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E550C1A62ADD559700732F23 = {
+			isa = PBXGroup;
+			children = (
+				E550C1B12ADD559700732F23 /* LivePhoto */,
+				E550C1CD2ADD559A00732F23 /* LivePhotoTests */,
+				E550C1D72ADD559A00732F23 /* LivePhotoUITests */,
+				E550C1B02ADD559700732F23 /* Products */,
+				1DDF5FCBB36DF2808EC83FD5 /* Pods */,
+				FD3322E0FBFB52DFCC194051 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E550C1B02ADD559700732F23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E550C1AF2ADD559700732F23 /* LivePhoto.app */,
+				E550C1CA2ADD559A00732F23 /* LivePhotoTests.xctest */,
+				E550C1D42ADD559A00732F23 /* LivePhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E550C1B12ADD559700732F23 /* LivePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				E550C1B22ADD559700732F23 /* AppDelegate.h */,
+				E550C1B32ADD559700732F23 /* AppDelegate.m */,
+				E550C1B52ADD559700732F23 /* SceneDelegate.h */,
+				E550C1B62ADD559700732F23 /* SceneDelegate.m */,
+				E550C1B82ADD559700732F23 /* ViewController.h */,
+				E550C1B92ADD559700732F23 /* ViewController.m */,
+				E550C1E72ADD56F900732F23 /* LivePhotoCollectionViewCell.h */,
+				E550C1E82ADD56F900732F23 /* LivePhotoCollectionViewCell.m */,
+				E550C1BB2ADD559700732F23 /* Main.storyboard */,
+				E550C1BE2ADD559900732F23 /* Assets.xcassets */,
+				E550C1C02ADD559900732F23 /* LaunchScreen.storyboard */,
+				E550C1C32ADD559900732F23 /* Info.plist */,
+				E550C1C42ADD559900732F23 /* main.m */,
+			);
+			path = LivePhoto;
+			sourceTree = "<group>";
+		};
+		E550C1CD2ADD559A00732F23 /* LivePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E550C1CE2ADD559A00732F23 /* LivePhotoTests.m */,
+			);
+			path = LivePhotoTests;
+			sourceTree = "<group>";
+		};
+		E550C1D72ADD559A00732F23 /* LivePhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E550C1D82ADD559A00732F23 /* LivePhotoUITests.m */,
+				E550C1DA2ADD559A00732F23 /* LivePhotoUITestsLaunchTests.m */,
+			);
+			path = LivePhotoUITests;
+			sourceTree = "<group>";
+		};
+		FD3322E0FBFB52DFCC194051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39C56F7579CDF6DE944FD88 /* Pods_LivePhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E550C1AE2ADD559700732F23 /* LivePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550C1DE2ADD559A00732F23 /* Build configuration list for PBXNativeTarget "LivePhoto" */;
+			buildPhases = (
+				616DBB09F3F8397A8E53A701 /* [CP] Check Pods Manifest.lock */,
+				E550C1AB2ADD559700732F23 /* Sources */,
+				E550C1AC2ADD559700732F23 /* Frameworks */,
+				E550C1AD2ADD559700732F23 /* Resources */,
+				9F8D66A9E00364CE0F896A89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivePhoto;
+			productName = LivePhoto;
+			productReference = E550C1AF2ADD559700732F23 /* LivePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E550C1C92ADD559A00732F23 /* LivePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550C1E12ADD559A00732F23 /* Build configuration list for PBXNativeTarget "LivePhotoTests" */;
+			buildPhases = (
+				E550C1C62ADD559A00732F23 /* Sources */,
+				E550C1C72ADD559A00732F23 /* Frameworks */,
+				E550C1C82ADD559A00732F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E550C1CC2ADD559A00732F23 /* PBXTargetDependency */,
+			);
+			name = LivePhotoTests;
+			productName = LivePhotoTests;
+			productReference = E550C1CA2ADD559A00732F23 /* LivePhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E550C1D32ADD559A00732F23 /* LivePhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550C1E42ADD559A00732F23 /* Build configuration list for PBXNativeTarget "LivePhotoUITests" */;
+			buildPhases = (
+				E550C1D02ADD559A00732F23 /* Sources */,
+				E550C1D12ADD559A00732F23 /* Frameworks */,
+				E550C1D22ADD559A00732F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E550C1D62ADD559A00732F23 /* PBXTargetDependency */,
+			);
+			name = LivePhotoUITests;
+			productName = LivePhotoUITests;
+			productReference = E550C1D42ADD559A00732F23 /* LivePhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E550C1A72ADD559700732F23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E550C1AE2ADD559700732F23 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					E550C1C92ADD559A00732F23 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E550C1AE2ADD559700732F23;
+					};
+					E550C1D32ADD559A00732F23 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E550C1AE2ADD559700732F23;
+					};
+				};
+			};
+			buildConfigurationList = E550C1AA2ADD559700732F23 /* Build configuration list for PBXProject "LivePhoto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E550C1A62ADD559700732F23;
+			productRefGroup = E550C1B02ADD559700732F23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E550C1AE2ADD559700732F23 /* LivePhoto */,
+				E550C1C92ADD559A00732F23 /* LivePhotoTests */,
+				E550C1D32ADD559A00732F23 /* LivePhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E550C1AD2ADD559700732F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550C1C22ADD559900732F23 /* LaunchScreen.storyboard in Resources */,
+				E550C1BF2ADD559900732F23 /* Assets.xcassets in Resources */,
+				E550C1BD2ADD559700732F23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550C1C82ADD559A00732F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550C1D22ADD559A00732F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		616DBB09F3F8397A8E53A701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivePhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8D66A9E00364CE0F896A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LivePhoto/Pods-LivePhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E550C1AB2ADD559700732F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550C1BA2ADD559700732F23 /* ViewController.m in Sources */,
+				E550C1B42ADD559700732F23 /* AppDelegate.m in Sources */,
+				E550C1E92ADD56F900732F23 /* LivePhotoCollectionViewCell.m in Sources */,
+				E550C1C52ADD559900732F23 /* main.m in Sources */,
+				E550C1B72ADD559700732F23 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550C1C62ADD559A00732F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550C1CF2ADD559A00732F23 /* LivePhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E550C1D02ADD559A00732F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550C1D92ADD559A00732F23 /* LivePhotoUITests.m in Sources */,
+				E550C1DB2ADD559A00732F23 /* LivePhotoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E550C1CC2ADD559A00732F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E550C1AE2ADD559700732F23 /* LivePhoto */;
+			targetProxy = E550C1CB2ADD559A00732F23 /* PBXContainerItemProxy */;
+		};
+		E550C1D62ADD559A00732F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E550C1AE2ADD559700732F23 /* LivePhoto */;
+			targetProxy = E550C1D52ADD559A00732F23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E550C1BB2ADD559700732F23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550C1BC2ADD559700732F23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E550C1C02ADD559900732F23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550C1C12ADD559900732F23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E550C1DC2ADD559A00732F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E550C1DD2ADD559A00732F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E550C1DF2ADD559A00732F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852C1FC6B4FDE6C3B640B341 /* Pods-LivePhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DEX8AJU4L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LivePhoto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.reddot.LivePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E550C1E02ADD559A00732F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F643F156004F744351D996FE /* Pods-LivePhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DEX8AJU4L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LivePhoto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.reddot.LivePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E550C1E22ADD559A00732F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.reddot.LivePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivePhoto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LivePhoto";
+			};
+			name = Debug;
+		};
+		E550C1E32ADD559A00732F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.reddot.LivePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivePhoto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LivePhoto";
+			};
+			name = Release;
+		};
+		E550C1E52ADD559A00732F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.reddot.LivePhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivePhoto;
+			};
+			name = Debug;
+		};
+		E550C1E62ADD559A00732F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huya.reddot.LivePhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivePhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E550C1AA2ADD559700732F23 /* Build configuration list for PBXProject "LivePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550C1DC2ADD559A00732F23 /* Debug */,
+				E550C1DD2ADD559A00732F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550C1DE2ADD559A00732F23 /* Build configuration list for PBXNativeTarget "LivePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550C1DF2ADD559A00732F23 /* Debug */,
+				E550C1E02ADD559A00732F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550C1E12ADD559A00732F23 /* Build configuration list for PBXNativeTarget "LivePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550C1E22ADD559A00732F23 /* Debug */,
+				E550C1E32ADD559A00732F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550C1E42ADD559A00732F23 /* Build configuration list for PBXNativeTarget "LivePhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550C1E52ADD559A00732F23 /* Debug */,
+				E550C1E62ADD559A00732F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E550C1A72ADD559700732F23 /* Project object */;
+}
